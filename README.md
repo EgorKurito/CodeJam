@@ -1,6 +1,6 @@
 # CodeJam
-Saving The Universe Again
-Problem
+# Saving The Universe Again
+# Problem
 An alien robot is threatening the universe, using a beam that will destroy all algorithms knowledge. We have to stop it!
 
 Fortunately, we understand how the robot works. It starts off with a beam with a strength of 1, and it will run a program that is a series of instructions, which will be executed one at a time, in left to right order. Each instruction is of one of the following two types:
@@ -23,10 +23,10 @@ The President of the Universe has volunteered to fly into space to hack the robo
 
 To prevent the robot from getting too suspicious, the President does not want to hack too many times. What is this smallest possible number of hacks which will ensure that the program does no more than D total damage, if it is possible to do so?
 
-Input
+# Input
 The first line of the input gives the number of test cases, T. T test cases follow. Each consists of one line containing an integer D and a string P: the maximum total damage our shield can withstand, and the robot's program.
 
-Output
+# Output
 For each test case, output one line containing Case #x: y, where x is the test case number (starting from 1) and y is either the minimum number of hacks needed to accomplish the goal, or IMPOSSIBLE if it is not possible.
 
 Limits
@@ -49,13 +49,13 @@ Input
  	
 Output 
  
-6
-1 CS
-2 CS
-1 SS
-6 SCCSSC
-2 CC
-3 CSCSS
+6 \n
+1 CS \n
+2 CS \n
+1 SS \n
+6 SCCSSC \n
+2 CC \n
+3 CSCSS \n
 
 Case #1: 1
 Case #2: 0
